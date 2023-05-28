@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Error: expected ";".
+ *    ,
+ * 20 | $colorm: #c01c53
+ *    |                 ^
+ *    '
+ *   estilos.scss 20:17  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    ╷\a 20 │ $colorm: #c01c53\a    │                 ^\a    ╵\a   estilos.scss 20:17  root stylesheet';
+}
+
+
+
+/*# sourceMappingURL=estilos.scss.map */
